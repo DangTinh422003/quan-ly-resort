@@ -66,6 +66,36 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControl_Accountant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Accountant.Designer.cs">
+      <DependentUpon>UserControl_Accountant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Booking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Booking.Designer.cs">
+      <DependentUpon>UserControl_Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Customer.Designer.cs">
+      <DependentUpon>UserControl_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Manager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Manager.Designer.cs">
+      <DependentUpon>UserControl_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Room.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Room.Designer.cs">
+      <DependentUpon>UserControl_Room.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +114,21 @@
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Accountant.resx">
+      <DependentUpon>UserControl_Accountant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Booking.resx">
+      <DependentUpon>UserControl_Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Customer.resx">
+      <DependentUpon>UserControl_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Manager.resx">
+      <DependentUpon>UserControl_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Room.resx">
+      <DependentUpon>UserControl_Room.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -96,6 +141,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\BookOutlined.png" />
+    <Content Include="resources\HomeOutlined.png" />
+    <Content Include="resources\logo.png" />
+    <Content Include="resources\searchIcon.png" />
+    <Content Include="resources\SecurityScanOutlined.png" />
+    <Content Include="resources\UserOutlined.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
